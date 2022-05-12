@@ -6,7 +6,7 @@
 
 'use strict'
 /**
- * This function calculates how much calories a person will lose doing a certain activity
+ * This function calculates how much it will cost for a certain order
  */
 function order () {
 
@@ -50,7 +50,7 @@ function order () {
 		taterTots = 1
 	}
 
-	//IF statements for drinks
+	//IF statements for drinks[]
 	if (document.getElementById('drink-yes').checked) {
 		drink = 2
 	}
